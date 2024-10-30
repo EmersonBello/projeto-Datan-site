@@ -1,0 +1,54 @@
+
+.inicio {
+    margin-top: 10%;
+    padding: 0 20px;
+}
+
+
+.inicio .conteudo {
+    max-width: 300%;
+}
+
+.inicio h1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 0 50px;
+}
+
+.conteudo-texto-imagem {
+    justify-content: center;
+    display: flex;
+}
+
+.texto {
+    flex: 1; 
+}
+
+.texto p {
+    font-size: 20px;
+    line-height: 2.0;
+    margin-bottom: 15px;
+}
+
+.imagem-desfile { 
+    width: 280px; 
+    height: 500px;
+    border-radius: 8px;
+}
+
+.imagem-desfile {
+    border-radius: 10%; 
+    object-fit: cover; 
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
+}
+
+.imagem-desfile:last-of-type {
+    flex-direction: column; 
+}
+
+.imagem-desfile:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
