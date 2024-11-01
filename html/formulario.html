@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <title>fórmulario</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de Inscrições</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome">Nome completo:</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email">Email:</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone">Telefone:</label>
+                </div>
+                <br>
+                <p>Sexo:</p>
+                <input type="radio" name="genero" value="feminino" id="feminino" required>
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" value="masculino" id="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" value="outro" id="outro" required>
+                <label for="outro">Outro</label>
+                <br><br>
+                <div class="inputBox">
+                    <p><b>Data de Nascimento:</b></p>
+                    <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>      
+                </div>
+                <br><br>
+                <p>Série:</p>
+                <input type="radio" name="serie" value="1_ano" id="primeiro_ano" required>
+                <label for="primeiro_ano">1º Ano</label>
+                <input type="radio" name="serie" value="2_ano" id="segundo_ano" required>
+                <label for="segundo_ano">2º Ano</label>
+                <input type="radio" name="serie" value="3_ano" id="terceiro_ano" required>
+                <label for="terceiro_ano">3º Ano</label>
+                <br><br>
+                <p>Curso:</p>
+                <input type="radio" name="curso" value="administracao" id="administracao" required>
+                <label for="administracao">Administração</label>
+                <input type="radio" name="curso" value="agronegocio" id="agronegocio" required>
+                <label for="agronegocio">Agronegócio</label>
+                <input type="radio" name="curso" value="desenvolvimento" id="desenvolvimento" required>
+                <label for="desenvolvimento">Desenvolvimento de Sistemas</label>
+                <input type="radio" name="curso" value="enfermagem" id="enfermagem" required>
+                <label for="enfermagem">Enfermagem</label>
+                <input type="radio" name="curso" value="logistica" id="logistica" required>
+                <label for="logistica">Logística</label>
+                <br><br>
+                <input type="submit" name="submit" id="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </div>        
+</body>
+</html>
